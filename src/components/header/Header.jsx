@@ -9,7 +9,7 @@ function Header(props) {
         <h1 className="text-2xl font-bold">{props.atr1}</h1>
         <nav>
           <ul className="flex space-x-4">
-            <li>
+            {/* <li>
               <a href="#home" className="hover:text-gray-300">
                 Home
               </a>
@@ -23,7 +23,7 @@ function Header(props) {
               <a href="#services" className="hover:text-gray-300">
                 Services
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="hover:text-gray-300">
                 Contact
